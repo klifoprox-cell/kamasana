@@ -1,0 +1,8 @@
+@font-face{font-family:'Sharp Serif';src:url('assets/fonts/SharpSerif-Light.ttf') format('truetype');font-style:normal;font-weight:300;font-display:swap}
+@font-face{font-family:'Macan';src:url('assets/fonts/Macan-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Macan';src:url('assets/fonts/Macan-Book.woff2') format('woff2');font-style:normal;font-weight:300;font-display:swap}
+
+:root{--ink:#292525;--paper:#fafafa;--sand:#efedeb;--accent:#292525;--line:rgba(41,37,37,.18)}
+body{font-family:'Macan',Arial,sans-serif;font-weight:400;letter-spacing:0}
+.hero{background:#292525}.hero h1,h2,h3,.brand,.lead,.price,.package-info h3,.volume-item strong,.matrix-row span:not(:first-child),.flip-caption,.reverse-note strong{font-family:'Sharp Serif',Georgia,serif;font-weight:300}.hero h1{letter-spacing:.025em}.brand{letter-spacing:.14em}.eyebrow,.nav,footer,.button,.flip-hint,.matrix-head span{font-family:'Macan',Arial,sans-serif}
+.package-info p:not(.number),.intro>p:last-child,.designs-copy>p:last-child,.ritual-copy>p:last-child,.closing>p:last-of-type{font-family:'Macan',Arial,sans-serif}.packages{background:#efedeb}.package-card{background:#fff}.featured{background:#fff}.reverse-note{background:#f1f0ef;border-left-color:#292525}.pricing-block,.ritual{background:#292525}.button{background:#292525}.package-card{border:1px solid rgba(41,37,37,.08);border-radius:14px;overflow:hidden}.package-card>img{border-radius:14px 14px 0 0;filter:saturate(.62) contrast(1.02) brightness(1.015)}
